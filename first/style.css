@@ -1,0 +1,132 @@
+body {
+
+}
+
+.top {
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    height: 130px;
+    width: 100%; 
+    margin-top: 10px;
+    -webkit-box-sizing:border box;
+    -moz-box-sizing:border-box;
+    box-sizing: border-box;
+}
+#t_left {
+    float: left;
+    height: 100%;
+    width: 32%;
+    background-color: red;
+}
+
+#t_middle {
+    float: left;
+    height: 100%;
+    width: 32%;
+    margin-left: 20px;
+    background-color: blue;
+}
+
+#t_right {
+    float: left;
+    height: 100%;
+    width: 31%;
+    margin-left: 20px;
+    background-color: gray;
+}
+
+.content {
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    /* margin: 10px 10px 10px 10px; */
+    background-color: white;
+    height: 300px;
+    width: 100%;
+    text-align: center;
+    padding: 20px 40px 20px 40px;
+    -webkit-box-sizing:border box;
+    -moz-box-sizing:border-box;
+    box-sizing: border-box;
+}
+
+.filler {
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    /* margin: 10px 10px 10px 10px; */
+    height: 300px;
+    width: 100%; 
+    -webkit-box-sizing:border box;
+    -moz-box-sizing:border-box;
+    box-sizing: border-box;
+}
+
+#f_left {
+    float: left;
+    height: 100%;
+    width: 33%;
+    background-color: red;
+}
+
+#f_right {
+    float: left;
+    height: 100%;
+    width: 67%;
+    background-color: blue;
+}
+.bottom {
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    margin-top: 10px;
+    height: 90px;
+    width: 100%; 
+    -webkit-box-sizing:border box;
+    -moz-box-sizing:border-box;
+    box-sizing: border-box;
+}
+
+#b_left {
+    float: left;
+    height: 100%;
+    width: 74%;
+    background-color: blue;
+}
+
+#b_middle {
+    float: left;
+    height: 100%;
+    width: 5%;
+    background-color: red;
+}
+
+#b_middle1 {
+    float: left;
+    height: 100%;
+    width: 20%;
+    background-color: gray;
+}
+
+#b_right {
+    float: left;
+    height: 100%;
+    width: 5%;
+    background-color: red;
+}
+
+
+p {
+    color: black;
+    font-size: 20px;
+    font-family: ariel;
+}
